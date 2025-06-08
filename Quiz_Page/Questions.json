@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Who is credited with the invention of the modern sandwich, and what was the practical reason behind it?",
+        "options": ["King George III. He wanted a meal to serve during royal banquets", "John Montagu, 4th Earl of Sandwich. He wanted to eat without leaving the gambling table", "Thomas Edison. He invented it while experimenting with food preservation", "William Shakespeare. He created it as a snack for his theater audience"],
+        "correctAns": 1
+    },
+    {
+        "question": "What is the main reason Stargazy Pie is celebrated in the village of Mousehole?",
+        "options": ["To showcase Cornwall's unique seafood recipes", "To honor a fisherman who saved the village during a storm", "To attract tourists during the winter season", "To celebrate the beginning of the fishing season"],
+        "correctAns": 1
+    },
+    {
+        "question": "What was the original purpose of creating Toad in the Hole in the 18th century?",
+        "options": ["To honor a royal chef who invented Yorkshire pudding", "To impress foreign guests with traditional British cuisine", "To provide an affordable and filling meal using small amounts of meat", "To celebrate the discovery of a new kind of sausage"],
+        "correctAns": 2
+    },
+    {
+        "question": "What is the main difference between Devils on Horseback and its predecessor, Angels on Horseback?",
+        "options": ["Devils on Horseback uses oysters, while Angels on Horseback uses prunes or dates", "Devils on Horseback is served cold, while Angels on Horseback is served hot", "Devils on Horseback uses dried fruits and bacon, while Angels on Horseback uses oysters", "Devils on Horseback is a dessert, while Angels on Horseback is a savory dish"],
+        "correctAns": 2
+    },
+    {
+        "question": "Why do jellied eels naturally form a jelly without added gelatin?",
+        "options": ["The dish includes seaweed, which thickens the stock", "The eels are cooked with added starch and flour", "Artificial gelatin is always mixed into the stock", "The natural collagen from the eel's bones and skin creates the jelly"],
+        "correctAns": 3
+    },
+    {
+        "question": "Why did fish and chips remain popular in England during World War II?",
+        "options": ["Because they were the most expensive food items on the market", "Because they were easy to grow in home gardens", "Because they were not heavily rationed and boosted public morale", "Because they were imported from other countries in large quantities"],
+        "correctAns": 2
+    },
+    {
+        "question": "How did the Cornish pasty change from the 13th to the 18th until 19th centuries?",
+        "options": ["It was replaced entirely by sandwiches during the Industrial Revolution", "It became sweeter and was served only as a dessert", "It changed from a luxurious dish for nobility to a simple, hearty meal for miners", "It became a vegetarian dish due to meat shortages"],
+        "correctAns": 0
+    },
+    {
+        "question": "When did the combination of steak and kidney in pies first become popular in England?",
+        "options": ["In the early 1700s, as a dish served to royalty", "In the mid-1800s, when Mrs. Beeton included it in her cookbook", "During World War II, when rationing led to creative recipes", "In the 20th century, as part of modern British fine dining"],
+        "correctAns": 1
+    },
+    {
+        "question": "What was the original form of Christmas pudding in the 14th century?",
+        "options": ["A sweet fruit cake with brandy and molasses", "A savory meat pie with suet and dried fruits", "A porridge-like dish made with wheat, milk, and spices", "A steamed pudding made with flour and eggs"],
+        "correctAns": 2
+    },
+    {
+        "question": "Why is Jam Roly-Poly sometimes called “Dead Man's Arm”?",
+        "options": ["Because it is shaped like an arm and cooked wrapped in cloth", "Because it contains unusual ingredients from animals", "Because it is eaten only at funerals", "Because it is traditionally served cold and hard"],
+        "correctAns": 0
+    }
+]

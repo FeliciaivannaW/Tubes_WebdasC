@@ -1,0 +1,324 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+    height: auto;
+}
+
+.logo{
+    display: flex;
+    top: 30px;
+    left: 50px;
+}
+
+h1, h2, h3 {
+    margin: 0 0 10px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 40px;
+}
+
+.navbar .logo img {
+    height: 50px;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 20px
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn-subscribe {
+    background: #ff2d75;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.isi {
+    background: url('background.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 100px 20px 40px;
+    box-sizing: border-box;
+}
+
+.isi-content {
+    max-width: 700px;
+}
+
+.btn-primary {
+    background: #ff2d75;
+    color: white;
+    padding: 12px 28px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.food-cards,
+.milestone-circles {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 30px;
+    padding: 60px 20px;
+}
+
+.card,
+.circle-block {
+    flex: 0 0 auto;
+    width: 280px;
+    scroll-snap-align: start;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    height: 180px;
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.habits-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 80px 40px;
+    background: #05050c;
+    color: white;
+}
+
+.habits-main .text-block {
+    flex: 1;
+    padding: 20px;
+}
+
+.habits-main .highlight {
+    color: #ff2d75;
+}
+
+.habits-main .image-block {
+    flex: 1;
+    text-align: center;
+}
+
+.habits-main .image-block img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.quote {
+    background: #d8d2e2;
+    padding: 5px;
+    font-style: italic;
+    text-align: center;
+    color: #484646;
+}
+
+.milestones {
+    padding: 60px 20px;
+    text-align: center;
+    background: #fff;
+}
+
+.circle-block {
+    text-align: center;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+
+.faq {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.faq h2 {
+    margin-bottom: 20px;
+}
+
+.faq::before {
+    content: "";
+    display: block;
+    background: url('3_Mesa\ de\ trabajo\ 1.png') center/contain no-repeat;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.faq details {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.faq summary {
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #eee;
+}
+
+.faq p {
+    padding: 10px;
+    background: #f5f5f5;
+    margin: 0;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+    background: url('Subscribe banner.jpg') center/cover no-repeat;
+    align-items: center;
+    color: #000;
+}
+
+.news-left {
+    flex: 1;
+    min-width: 280px;
+}
+
+.news-right {
+    flex: 1;
+    text-align: center;
+    max-width: 100%;
+}
+
+.news-left h2 span {
+    color: #ff2d75;
+}
+
+.footer {
+    background: #05050c;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.footer-column, .footer-left, .footer-center, .footer-right {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-left img {
+  width: 100px;
+}
+
+.footer form input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.footer form button {
+    background: #ff2d75;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.socials i {
+    margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.socials i:hover{
+    color: #ff2d75;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .newsletter,
+    .habits-main,
+    .footer,
+    .faq {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .newsletter .news-left,
+    .newsletter .news-right,
+    .habits-main .text-block,
+    .habits-main .image-block,
+    .footer-left,
+    .footer-center,
+    .footer-right {
+        width: 100%;
+    }
+
+    .faq-image {
+        width: 100%;
+        margin: 20px 0 0 0;
+        height: 200px;
+    }
+}

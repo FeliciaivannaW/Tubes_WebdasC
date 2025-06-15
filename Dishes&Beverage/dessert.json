@@ -1,0 +1,200 @@
+[
+    {   
+        "id": 1,
+        "img":"img/Desserts/1.spotted-dick.png",
+        "name": "Spotted Dick",
+        "explanation": "Spotted dick is a classic British steamed pudding made from suet (animal fat), flour, sugar, and dried fruits like currants or raisins, which create the “spots” in the pudding. It's usually served hot with custard, making it a warm and comforting dessert.",
+        "place":"The dish originated in England during the 19th century, and its name comes from old English slang: “spotted” refers to the dried fruit, and “dick” was a common term for pudding or dough. It has long been a favorite in British households and school dinners, and despite its humorous name, it remains a beloved traditional treat.",
+        "placeImg1": "img/Desserts/SpottedDick/placeImg1.webp",
+        "placeImg2": "img/Desserts/SpottedDick/placeImg2.webp",
+
+        "history": "1849: The dish was first recorded in The Modern Housewife or, Ménagère by Alexis Soyer, under the name 'Plum Bolster' or 'Spotted Dick', made with dough and Smyrna raisins. <br><br> 1855: The term 'Spotted Dog' appeared in C.M. Smith's Working-men's Way in the World, describing it as a dense plum pudding. This name is more commonly used in Ireland, where the dish resembles soda bread with added currants. <br><br> 1892: The Pall Mall Gazette reported that the Kilburn Sisters served Spotted Dick daily to hundreds of dockworkers.",
+        "historyImg1": "img/Desserts/SpottedDick/historyImg1.jpg",
+        "historyImg2": "img/Desserts/SpottedDick/historyImg2.jpg",
+        "historyImg3": "img/Desserts/SpottedDick/historyImg3.webp",
+
+        "factsImg1": "img/Desserts/SpottedDick/factsImg1.webp",
+        "factsImg2": "img/Desserts/SpottedDick/factsImg2.avif",
+        "factsImg3": "img/Desserts/SpottedDick/factsImg3.jpg",
+        "factsTitle1": "Renamed of Sensitivity",
+        "factsTitle2": "A Pudding with a Funny Name",
+        "factsTitle3": "Featured in 'Harry Potter'",
+        "factsExplanation1": "In formal settings like the Houses of Parliament, it was reportedly renamed 'Spotted Richard' to avoid causing a stir.",
+        "factsExplanation2": "The name 'spotted dick' comes from the dried fruit ('spots') and 'dick' an old term for pudding.",
+        "factsExplanation3": "J.K. Rowling included it in the Hogwarts feast scenes as a nod to classic British school dinners.",
+
+        "gallery1": "img/Desserts/SpottedDick/gallery1.webp",
+        "gallery2": "img/Desserts/SpottedDick/gallery2.webp",
+        "gallery3": "img/Desserts/SpottedDick/gallery3.webp",
+        "gallery4": "img/Desserts/SpottedDick/gallery4.webp",
+        "gallery5": "img/Desserts/SpottedDick/gallery5.webp",
+
+        "ingredients": ["300g/10oz plain flour","10g/2 tsp baking powder","150g/5oz shredded suet","75g/3oz caster sugar","110g/4oz currants","1 lemon, zest only","200ml/7fl oz milk","butter, for greasing","200ml/7fl oz milk","200ml/7fl oz double cream","6 free-range egg yolks","75g/3oz caster sugar"],
+        "recipeSteps": ["For the spotted dick, place the flour, baking powder, shredded suet, caster sugar, currants and lemon zest into a bowl and mix to combine.","Add the milk and stir to make a soft dough.","Grease a pudding basin with butter and spoon the mixture into the basin. Cover with a piece of folded greaseproof paper.","Tie around the edge with string to secure the paper and place a damp tea towel over the top. Tie once more with string to secure the tea towel.","Place the basin into a large lidded saucepan and fill the pan two-thirds of the way up with water.","Cover with the lid, bring to a boil and simmer for one hour.","For the custard, place the milk and cream into a saucepan and bring to a simmer.","Place the egg yolks and sugar into a bowl and whisk together until light and frothy.","Pour the hot milk onto the eggs, a little at a time, and stir well. Pour the mixture back into the pan and cook over a low heat, stirring with a wooden spatula, until just thickened.","To serve, slice a wedge of spotted dick for each person and place onto each of six plates. Pour over the custard and serve at once."] 
+    },
+    {   
+        "id": 2,
+        "img":"img/Desserts/2.christmas-pudding.png",
+        "name": "Christmas Pudding",
+        "explanation": "Christmas pudding is a rich, dense British dessert traditionally served on Christmas Day. It's made with dried fruits, suet, breadcrumbs, spices, and often alcohol like brandy or rum. The pudding is steamed for several hours and sometimes aged for weeks to deepen the flavor.",
+        "place":"The dish originated in England, dating back to the 14th century, where it began as a spiced porridge. Over time, it evolved into the round, fruit-packed pudding known today. Christmas pudding is deeply tied to British holiday traditions, often prepared weeks in advance on “Stir-up Sunday,” the last Sunday before Advent.",
+        "placeImg1": "img/Desserts/ChristmasPudding/placeImg1.webp",
+        "placeImg2": "img/Desserts/ChristmasPudding/placeImg2.webp",
+
+        "history": "Christmas pudding originated in the 14th century as a porridge-like dish called “frumenty”, made with hulled wheat boiled in milk, seasoned with cinnamon, and colored with saffron. Initially, it was associated with meatless days, Lent, and Advent, often served plain or with additions like beef, mutton, dried fruits, wines, and spices. <br><br> In some regions, it was the main Christmas Eve food, while in Yorkshire it was eaten on Christmas morning. By the 17th century, the recipe evolved to include eggs, breadcrumbs, dried fruit, beer or spirits, making it closer to the sweet pudding known today. The Victorian era refined the recipe into the classic Christmas pudding enjoyed now.",
+        "historyImg1": "img/Desserts/ChristmasPudding/historyImg1.jpg",
+        "historyImg2": "img/Desserts/ChristmasPudding/historyImg2.jpg",
+        "historyImg3": "img/Desserts/ChristmasPudding/historyImg3.jpg",
+
+        "factsImg1": "img/Desserts/ChristmasPudding/factsImg1.jpg",
+        "factsImg2": "img/Desserts/ChristmasPudding/factsImg3.jpg",
+        "factsImg3": "img/Desserts/ChristmasPudding/factsImg2.jpg",
+        "factsTitle1": "Flamed with Brandy",
+        "factsTitle2": "Stir-Up Sunday Tradition",
+        "factsTitle3": "The Wishing Tradition of Christmas Pudding",
+        "factsExplanation1": "Christmas pudding is traditionally made on 'Stir-Up Sunday' (the last Sunday before Advent), with each family member stirring for luck.",
+        "factsExplanation2": "Making Christmas pudding often begins up to eight weeks before Christmas to allow the flavors to mature. Traditionally, each family member takes a turn stirring the mixture from east to west while making a secret wish. On Christmas Day, the pudding is steamed, doused in brandy or cognac, and flambéed before serving creating a festive blue flame that symbolizes warmth and celebration.",
+        "factsExplanation3": "The tradition of setting it alight with brandy symbolizes the Passion of Christ.",
+
+        "gallery1": "img/Desserts/ChristmasPudding/gallery1.jpg",
+        "gallery2": "img/Desserts/ChristmasPudding/gallery2.jpg",
+        "gallery3": "img/Desserts/ChristmasPudding/gallery3.jpeg",
+        "gallery4": "img/Desserts/ChristmasPudding/gallery4.jpg",
+        "gallery5": "img/Desserts/ChristmasPudding/gallery5.webp",
+
+        "ingredients": ["half a lemon, rind and juice","225 grams currants","225 grams raisins","225 grams sultanas","85 ml brandy","half an orange, juiced","225 grams suet","225 grams moist brown sugar","225 grams cooking apples, peeled and grated grate the apples at the last minute or they will go brown - or toss the grated apple in a little lemon juice to stop this happening","114 grams mixed peel also known as candied peel, this is widely available in the UK and Europe and available in the baking aisles of some North American grocery stores","114 grams plain flour plain flour is also known as all-purpose flour","4 eggs","114 grams fresh white breadcrumbs","½ teaspoon salt","½ teaspoon mixed spice"],
+        "recipeSteps": ["Soak the currants, raisins and sultanas in the brandy, lemon juice, rind and orange juice overnight.","In the morning, in a seriously large bowl, mix the suet, flour, sugar, salt, spices, mixed peel, breadcrumbs, apples and eggs with the soaked fruit and any juice/liquor remaining in the bowl.","All the ingredients should be included at this point. Mix thoroughly with a wooden spoon until completely combined.","Grease one 2 pint pudding basin or 2 one pint pudding basins.","Fill to about three quarters full with this mixture.","To wrap the pudding for steaming you need to lay a sheet of aluminium foil over a sheet of greaseproof or waxed paper.","Pick up both and make a pleat down the centre. Put this on top of your pudding bowl and wrap round firmly.","Then use a long piece of string to tie the paper and foil tightly round the bowl, leaving a couple of nice long ends of string.","Bring the extra string back up over top of the bowl and tie it under the string on the other side to make a handle so you can get the pudding out of the steamer easily.","Trim round the edges of the paper and foil with scissors to ensure that none of it drips into the water you will put round for steaming or it will seep into the pudding and ruin it.","You need a large steamer or saucepan for each pudding bowl - it needs to be much larger than the bowl itself. Place a small heatproof saucer upside down on the bottom of each saucepan, and place your prepared pudding bowl on top of the saucer.","Carefully fill the edges of the saucepan with water about half way up the pudding bowl. Put the lid on the saucepan.","Bring the water to a slow boil so the pudding can steam gradually. You will need to top up the water very regularly (sometimes as often as every forty-five minutes or so) so that the pudding does not boil dry. If it does, the saucer and pudding bowl will break and all will be lost.","After eight hours of steaming, remove the saucepan from the heat and let it cool down a bit before carefully removing the pudding from the saucepan using the string handle.","It's good to have a tea towel close by as the pudding bowl will be wet.","Dry the bowl off, remove the paper, foil and string and sit the pudding in its bowl on a heat proof surface to cool down.","When the pudding and bowl are completely cool, remove the greaseproof paper and foil and then tie a fresh piece of greaseproof paper and foil over them just as before.","The pudding improves with age, so store in a cool place away from draughts until Christmas. (The top of a cupboard works well.)","At least two hours before your Christmas dinner, repeat the steaming process. To serve the pudding, carefully remove it from the pudding basin (it will be very hot) by inverting on to a serving plate.","Traditionally the pudding is flamed, but this step is optional. If you want to flame your Christmas pudding, just pour a small amount (a couple tablespoons) of brandy or vodka over the pudding and light it with a match (be careful and make sure kids stay well out of the way!)","When the flames go out, serve the pudding in small slices with brandy butter, cream or custard."] 
+    },
+    {   
+        "id": 3,
+        "img":"img/Desserts/3.sticky-toffee-pudding.png" ,
+        "name": "Sticky Toffee Pudding",
+        "explanation": "Sticky toffee pudding is a soft cake made with dates and covered in sweet toffee sauce. It's usually served warm with ice cream or custard, and it tastes very sweet and comforting.",
+        "place":"The dessert originated in England, with many crediting its creation to the Lake District in Cumbria, during the 1970s. It quickly gained popularity and became a modern classic found in pubs and restaurants across the UK.",
+        "placeImg1": "img/Desserts/StickyToffeePudding/placeImg1.jpg",
+        "placeImg2": "img/Desserts/StickyToffeePudding/placeImg2.jpg",
+
+        "history": "The exact origins of sticky toffee pudding are unclear and disputed. Some pubs, like the Gait Inn in Millington, East Riding of Yorkshire (claiming since 1907), and the Udny Arms Hotel in Newburgh, Aberdeenshire (1960s), claim to have invented it. <br><br> The pudding was popularized in the 1970s by Francis Coulson and Robert Lee at the Sharrow Bay Country House Hotel in Cumbria. According to food critic Simon Hopkinson, Coulson received the recipe from Patricia Martin of Claughton, Lancashire, who in turn got it from Canadian air force officers staying at her hotel during World War II. <br><br> Sticky toffee pudding is closely associated with the Lake District in northwest England, where it has become a regional culinary symbol.",
+        "historyImg1": "img/Desserts/StickyToffeePudding/historyImg1.webp",
+        "historyImg2": "img/Desserts/StickyToffeePudding/historyImg2.jpeg",
+        "historyImg3": "img/Desserts/StickyToffeePudding/historyImg3.jpg",
+
+        "factsImg1": "img/Desserts/StickyToffeePudding/factsImg1.jpg",
+        "factsImg2": "img/Desserts/StickyToffeePudding/factsImg3.jpg",
+        "factsImg3": "img/Desserts/StickyToffeePudding/factsImg2.jpg",
+        "factsTitle1": "World's Largest Version",
+        "factsTitle2": "A Pudding That Improves with Time",
+        "factsTitle3": "Canadian Influence",
+        "factsExplanation1": "The largest sticky toffee pudding weighed 334 kg (736 lb 5 oz) and was achieved by Farmhouse Fare Limited (UK)",
+        "factsExplanation2": "Unlike many desserts, Sticky Toffee Pudding tastes even better the next day as the flavors deepen. Many chefs steam it twice to cook, then reheat before serving for maximum gooeyness.",
+        "factsExplanation3": "Some believe the recipe was inspired by a Canadian war bride's date cake.",
+
+        "gallery1": "img/Desserts/StickyToffeePudding/gallery1.webp",
+        "gallery2": "img/Desserts/StickyToffeePudding/gallery2.webp",
+        "gallery3": "img/Desserts/StickyToffeePudding/gallery3.webp",
+        "gallery4": "img/Desserts/StickyToffeePudding/gallery4.webp",
+        "gallery5": "img/Desserts/StickyToffeePudding/gallery5.webp",
+
+        "ingredients": ["100g/3½oz butter, softened, plus extra for greasing","175g/6oz light muscovado sugar","2 large free-range eggs","225g/8oz self-raising flour","1 tsp baking powder","1 tsp bicarbonate of soda","3 tbsp black treacle","275ml/9½fl oz full-fat milk","double cream or vanilla ice cream, to serve","100g/3½oz butter","125g/4½oz light muscovado sugar","1 tbsp black treacle","300ml/10fl oz pouring double cream","1 tsp vanilla extract"],
+        "recipeSteps": ["Preheat the oven to 180C/160C Fan/Gas 4. Butter a wide shallow 1.7-litre/3-pint ovenproof dish.","Put the butter, sugar, eggs, flour, baking powder, bicarbonate of soda and treacle into a mixing bowl. Beat using an electric handheld whisk for about 30 seconds or until combined. Pour in the milk gradually and whisk again until smooth.","Pour into the prepared dish. Bake for 35-40 minutes or until well risen and springy in the centre.","To make the sauce, put all the ingredients into a saucepan and stir over a low heat until the sugar has dissolved and the butter has melted. Bring to the boil, stirring for a minute.","To make the sauce, put all the ingredients into a saucepan and stir over a low heat until the sugar has dissolved and the butter has melted. Bring to the boil, stirring for a minute."] 
+    },
+    {   
+        "id": 4,
+        "img":"img/Desserts/4.eton-mess.png" ,
+        "name": "Eton Mess",
+        "explanation": "Eton Mess is a simple and sweet British dessert made by mixing crushed meringue, whipped cream, and fresh strawberries. It's light, creamy, and fruity—perfect for warm weather or as a quick treat.",
+        "place":"The dessert originated at Eton College in England, one of the country's most famous boy's schools. It's said to have first been served at the school's annual cricket match against Harrow in the late 19th or early 20th century. Since then, Eton Mess has become a popular summer dessert across the UK.",
+        "placeImg1": "img/Desserts/EtonMess/placeImg1.jpg",
+        "placeImg2": "img/Desserts/EtonMess/placeImg2.jpg",
+
+        "history": "Eton College was founded in 1440 as a public school and has since become a breeding ground for some of the wealthiest and most influential figures in the United Kingdom. It is a boys-only school, equivalent to American grades 8-12, with students starting at age 13 and continuing until they are ready for university. <br><br> The dessert Eton Mess is said to have originated during a cricket match between Eton and Harrow. According to the story, a dog knocked over a pavlova, creating a messy mix of ingredients that, although no longer visually appealing, were still edible. The mixture was served anyway and became known as Eton Mess. Today, the dessert is still served at Eton vs. Harrow cricket matches. However, like many charming food origin stories—such as the one about potato chips—this tale is likely fictional.",
+        "historyImg1": "img/Desserts/EtonMess/historyImg1.webp",
+        "historyImg2": "img/Desserts/EtonMess/historyImg2.webp",
+        "historyImg3": "img/Desserts/EtonMess/historyImg3.jpg",
+
+        "factsImg1": "img/Desserts/EtonMess/factsImg2.jpg",
+        "factsImg2": "img/Desserts/EtonMess/factsImg1.avif",
+        "factsImg3": "img/Desserts/EtonMess/factsImg3.jpg",
+        "factsTitle1": "1930s Origin",
+        "factsTitle2": "Magical Dessert",
+        "factsTitle3": "Named After a School Rivalry",
+        "factsExplanation1": "The earliest known written recipe appeared in the 1930s at Eton College.",
+        "factsExplanation2": "A spoonful of Eton Mess will take you through layers of flavours and texture. It is an experience of fresh strawberries macerated in rose strawberry coulis, mellowed with fluffy fresh whipped cream and crunchy sweet meringues.",
+        "factsExplanation3": "Eton Mess was supposedly created after a cricket match between Eton and Harrow, where a dessert was accidentally crushed.",
+
+        "gallery1": "img/Desserts/EtonMess/gallery1.webp",
+        "gallery2": "img/Desserts/EtonMess/gallery2.webp",
+        "gallery3": "img/Desserts/EtonMess/gallery3.webp",
+        "gallery4": "img/Desserts/EtonMess/gallery4.webp",
+        "gallery5": "img/Desserts/EtonMess/gallery5.webp",
+
+        "ingredients": ["300g fresh strawberries","150g fresh raspberries","½ tablespoon runny honey","100g double cream","100g low-fat Greek-style yoghurt","100g shop-bought meringues"],
+        "recipeSteps": ["Halve or quarter any large strawberries and place in a large bowl with the raspberries. Use a fork to crush half of the berries and drizzle over the honey.","Whip the cream until soft peaks form, then fold in the yoghurt.","Crumble the meringues over the fruit, then fold in the cream and yoghurt mixture. Divide up into 6 individual bowls and serve straightaway, topped with extra berries, if you like"] 
+    },
+    {   
+        "id": 5,
+        "img":"img/Desserts/5.jam-roly-poly.png" ,
+        "name": "Jam Roly Poly",
+        "explanation": "Jam roly-poly is a traditional British pudding made by spreading jam (usually raspberry or strawberry) onto a suet-based dough, then rolling it up like a log and steaming or baking it. It's warm, soft, and usually served with custard.",
+        "place":"The dish originated in England, especially popular in areas like the Midlands and Northern England, during the 19th century. It was often cooked in cloth—leading to nicknames like 'dead man's arm'",
+        "placeImg1": "img/Desserts/JamRolyPoly/placeImg1.jpg",
+        "placeImg2": "img/Desserts/JamRolyPoly/placeImg2.jpg",
+
+        "history": "Jam Roly-Poly is a traditional British dessert that has been passed down through generations as a beloved classic. It is also known as 'Dead Man's Arm' due to its traditional method of being cooked wrapped in cloth. This comforting dish consists of a jam-filled suet pastry, typically steamed or baked, and is especially enjoyed during the colder months of autumn and winter.",
+        "historyImg1": "img/Desserts/JamRolyPoly/historyImg1.jpg",
+        "historyImg2": "img/Desserts/JamRolyPoly/historyImg2.webp",
+        "historyImg3": "img/Desserts/JamRolyPoly/historyImg3.jpg",
+
+        "factsImg1": "img/Desserts/JamRolyPoly/factsImg1.webp",
+        "factsImg2": "img/Desserts/JamRolyPoly/factsImg2.jpg",
+        "factsImg3": "img/Desserts/JamRolyPoly/factsImg3.jpg",
+        "factsTitle1": "Nicknamed 'Dead Man's Arm'",
+        "factsTitle2": "Steamed, Not Baked",
+        "factsTitle3": "Not Your Average Swiss Roll",
+        "factsExplanation1": "Due to its rolled appearance, Jam Roly-Poly was humorously called 'dead man's arm' in Victorian times.",
+        "factsExplanation2": "Traditionally, it was steamed in a cloth rather than baked, giving it a unique texture.",
+        "factsExplanation3": "Though it looks like a Swiss roll, its suet-based dough gives it a tender, pudding-like texture more akin to a dumpling than a sponge cake.",
+
+        "gallery1": "img/Desserts/JamRolyPoly/gallery1.jpeg",
+        "gallery2": "img/Desserts/JamRolyPoly/gallery2.jpeg",
+        "gallery3": "img/Desserts/JamRolyPoly/gallery3.webp",
+        "gallery4": "img/Desserts/JamRolyPoly/gallery4.jpg",
+        "gallery5": "img/Desserts/JamRolyPoly/gallery5.jpeg",
+
+        "ingredients": ["softened butter, for greasing","200g/7oz self-raising flour, plus extra for dusting","100g/3½oz shredded suet","1 tbsp caster sugar","good pinch salt","150ml/5fl oz semi-skimmed milk or water","6-7 tbsp raspberry or strawberry jam"],
+        "recipeSteps": ["Preheat the oven to 200C/180C Fan/Gas 6. Butter a large sheet of baking paper and set aside.","Stir the flour, suet, sugar and salt in a large bowl until fully combined. Slowly stir in the milk to form a soft, spongy dough.","Tip the dough out onto a floured surface and knead for a few minutes. Roll the dough out to a 22cm x 32cm/8½in x 13in rectangle.","Spread the jam onto the dough, leaving a 1.5cm/½in border. Gently roll the dough up from the short end and transfer to the greaseproof paper, seam-side down. Wrap the roly poly in the baking paper, making a long pleat in the paper to allow the pudding to expand as it cooks. Twist the ends of the paper like a Christmas cracker and tie tightly with kitchen string, to seal the pudding inside. Repeat the process with a large piece of kitchen foil.","Place the pudding onto a roasting rack set on a deep-sided roasting tin. Pour boiling water halfway up the roasting tin and cook in the oven for 30-35 minutes.","Remove the pudding from the oven, unwrap the kitchen foil, then snip the string and unwrap the paper.","The pudding should be well risen and lightly browned in places. Don't worry if the jam has made its way through to the outside of the pudding a little - it will taste all the more delicious.","Put on a board or serving plate and cut into thick slices. Serve with lots of hot custard or cream."] 
+    },
+    {   
+        "id": 6,
+        "img":"img/Desserts/8.trifle.png" ,
+        "name": "Trifle",
+        "explanation": "Trifle is a traditional British dessert made by layering sponge cake, fruit or jelly, custard, and whipped cream in a glass bowl. Sometimes, the cake is soaked in sherry or another sweet alcohol to add extra flavor. It's cold, creamy, fruity, and often colorful",
+        "place":"The dish originated in England, with the earliest versions dating back to the 16th century. Originally a simple cream dessert, it evolved into the layered version we know today by the 18th century. Trifle remains a popular dessert for Christmas and special occasions across the UK.",
+        "placeImg1": "img/Desserts/Trifle/placeImg1.jpg",
+        "placeImg2": "img/Desserts/Trifle/placeImg2.webp",
+
+        "history": "Trifle is a traditional English dessert that originated in the 18th century as a way to use leftover and stale cake. It typically consists of cake soaked in alcohol, layered with fruit, custard, and jelly in a glass bowl. The dessert was introduced to America by the British, becoming especially popular in the Southern United States. <br><br> The word “trifle” comes from the Old French word trufe, meaning something insignificant—matching the dessert's simple nature. In the South, it is also nicknamed “tipsy parsons” because it was said to tempt Sunday preachers due to its alcohol content. Today, trifle is a beloved holiday dessert around the world, and in 2022, it was chosen as the Platinum Pudding to celebrate Queen Elizabeth II's Platinum Jubilee.",
+        "historyImg1": "img/Desserts/Trifle/historyImg1.webp",
+        "historyImg2": "img/Desserts/Trifle/historyImg2.webp",
+        "historyImg3": "img/Desserts/Trifle/historyImg3.webp",
+
+        "factsImg1": "img/Desserts/Trifle/factsImg1.avif",
+        "factsImg2": "img/Desserts/Trifle/factsImg2.webp",
+        "factsImg3": "img/Desserts/Trifle/factsImg3.webp",
+        "factsTitle1": "A Royal Twist on a Classic",
+        "factsTitle2": "The Diamond of the Kitchen",
+        "factsTitle3": "The Boozy Secret of Trifle",
+        "factsExplanation1": "A modern version of the trifle became historically significant when it was selected as the official Platinum Pudding for Queen Elizabeth II's Platinum Jubilee in 2022 marking 70 years of her reign.",
+        "factsExplanation2": "Truffles are a highly coveted and luxurious ingredient in the culinary world. Known for their distinct aroma and flavor, truffles are often referred to as the 'diamond of the kitchen.'",
+        "factsExplanation3": "In modern times, trifles are sometimes called “tipsy cakes” because soaked sponge layers are often boozy.",
+
+        "gallery1": "img/Desserts/Trifle/gallery1.webp",
+        "gallery2": "img/Desserts/Trifle/gallery2.webp",
+        "gallery3": "img/Desserts/Trifle/gallery3.webp",
+        "gallery4": "img/Desserts/Trifle/gallery4.webp",
+        "gallery5": "img/Desserts/Trifle/gallery5.webp",
+
+        "ingredients": ["1 packet trifle sponge fingers, broken into 5cm/2in pieces","150g/5oz amaretti biscuits or ratafias","150ml/5fl oz sweet sherry","1 tbsp cognac","4 tbsp blackberry or raspberry jam","450g/1 lb fresh blackberries","450g/1 lb fresh raspberries","85g/3oz toasted flaked almonds","600ml/1 pint ready-made custard","125ml/4fl oz sherry","2 tbsp brandy","1 lemon, juice only","55g/2oz caster sugar","425ml/15fl oz double cream","freshly grated nutmeg","2 oranges, grated zest only","85g/3oz flaked almonds"],
+        "recipeSteps": ["Lay the sponge pieces and biscuits in the base of a deep glass dish. Spoon over the sherry and cognac and leave to soak in for a few minutes.","Warm the jam in a bowl in the microwave or in a saucepan until it is runny then pour over the soaked sponge and biscuits. Sprinkle the fruit and flaked almonds on top. Pour over the custard.","To make the syllabub topping, place the sherry, brandy and lemon juice into a bowl and stir in the sugar until it dissolves. Pour in the cream with a pinch of nutmeg. Whisk until it holds its shape. Don't over-whisk, or whisk too vigorously, as the cream may split. Spoon the syllabub over the trifle and refigerate, preferably overnight.","Just before serving, scatter with the grated orange rind and/or flaked toasted almonds."] 
+    }
+]

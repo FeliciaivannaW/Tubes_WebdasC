@@ -1,0 +1,134 @@
+[
+    {   
+        "id": 1,
+        "img":"img/Snacks/1.sandwich.png",
+        "name": "Sandwich",
+        "explanation": "Sandwich is a popular and versatile food made by placing ingredients like meat, cheese, vegetables, or spreads between two slices of bread. It can be served hot or cold, and comes in many variations—from simple ham sandwiches to elaborate club or submarine sandwiches.",
+        "place":"The name “sandwich” comes from John Montagu, the 4th Earl of Sandwich, an 18th-century English nobleman. According to legend, he asked for meat to be served between slices of bread so he could eat without interrupting his card game. This practical way of eating became popular, and the dish was eventually named after him. So, the sandwich originated in England, specifically linked to the town of Sandwich in Kent.",
+        "placeImg1": "img/Snacks/Sandwich/placeImg1.jpg",
+        "placeImg2": "img/Snacks/Sandwich/placeImg2.jpg",
+
+        "history": "The modern sandwich originated in 18th-century England and was born out of practicality. The invention is commonly credited to John Montagu, the 4th Earl of Sandwich, an English nobleman known for his love of gambling. To avoid leaving the gaming table, he asked his servant to bring him meat between two slices of bread. This allowed him to eat without using utensils and continue playing. <br><br> This convenient way of eating soon caught on among others and spread throughout English society. The sandwich became popular as a quick and easy meal, especially in situations where formal dining wasn't possible. Its simplicity and portability made it ideal for busy lifestyles. The sandwich was created as a practical solution by an English earl and quickly gained popularity due to its convenience and ease of eating.",
+        "historyImg1": "img/Snacks/Sandwich/historyImg1.jpg",
+        "historyImg2": "img/Snacks/Sandwich/historyImg2.jpg",
+        "historyImg3": "img/Snacks/Sandwich/historyImg3.jpg",
+
+        "factsImg1": "img/Snacks/Sandwich/factsImg1.jpg",
+        "factsImg2": "img/Snacks/Sandwich/factsImg2.webp",
+        "factsImg3": "img/Snacks/Sandwich/factsImg3.jpg",
+        "factsTitle1": "The Most Expensive Sandwich",
+        "factsTitle2": "The Longest Sandwich",
+        "factsTitle3": "Global Love",
+        "factsExplanation1": "The most expensive sandwich ever made is a grilled cheese with gold flakes, sold for £214.",
+        "factsExplanation2": "In the World, In 2011, Lebanon set a world record by creating a sandwich measuring over 2,411 meters.",
+        "factsExplanation3": "Almost every culture has a sandwich variant.",
+
+        "gallery1": "img/Snacks/Sandwich/gallery1.jpg",
+        "gallery2": "img/Snacks/Sandwich/gallery2.jpg",
+        "gallery3": "img/Snacks/Sandwich/gallery3.webp",
+        "gallery4": "img/Snacks/Sandwich/gallery4.webp",
+        "gallery5": "img/Snacks/Sandwich/gallery5.jpg",
+
+        "ingredients": ["1/2 lb (225g) bacon (12 slices)","8 slices white bread","8 lettuce leaves","8 slices of ripe tomatoes","8 tbsp mayonnaise"],
+        "recipeSteps": ["Prepare the bacon first; cook it so it becomes crispy, and then place on some paper towels to drain","Next, toast the bread and spread a tablespoon of mayonnaise on each slice.","Now, assemble the sandwiches in the following order: toast with mayonnaise side up, 1 lettuce leaf, 2 slices of tomato, 3 bacon slices, 1 lettuce leaf, toast with mayonnaise side down. This will make for a total of four sandwiches."] 
+    },
+    {   
+        "id": 2,
+        "img":"img/Snacks/5.bubble-n-squeak.png",
+        "name": "Bubble and Squeak",
+        "explanation": "Bubble and squeak is a traditional British dish made by frying up leftover vegetables, usually from a roast dinner. The most common ingredients are potatoes and cabbage, but it can also include carrots, peas, or Brussels sprouts. Everything is mashed together and pan-fried until crispy and browned on the outside.",
+        "place":"The dish originated in England, particularly among the working class in London, as a way to use up leftover food. Its name comes from the bubbling and squeaking sounds it makes while cooking in the pan. It became especially popular during times of food rationing, like World War II, when wasting food was not an option.",
+        "placeImg1": "img/Snacks/BubblenSqueak/placeImg1.jpg",
+        "placeImg2": "img/Snacks/BubblenSqueak/placeImg2.avif",
+
+        "history": "Bubble and Squeak is a dish that dates back to the 18th century in England. It is made out of leftovers and started out with cooked beef in its ingredients. During World War II, when food was short due to rationing, Bubble and Squeak became very popular. It was around this time that the dish went from a beef-based recipe to the modern potato-based recipe that we know today",
+        "historyImg1": "img/Snacks/BubblenSqueak/historyImg1.jpg",
+        "historyImg2": "img/Snacks/BubblenSqueak/historyImg2.webp",
+        "historyImg3": "img/Snacks/BubblenSqueak/historyImg3.jpg",
+
+        "factsImg1": "img/Snacks/BubblenSqueak/factsImg1.jpg",
+        "factsImg2": "img/Snacks/BubblenSqueak/factsImg2.png",
+        "factsImg3": "img/Snacks/BubblenSqueak/factsImg3.jpg",
+        "factsTitle1": "Made from Leftovers",
+        "factsTitle2": "Often Eaten on Boxing Day",
+        "factsTitle3": "Named for Its Sound",
+        "factsExplanation1": "Bubble and Squeak is typically made from leftover vegetables, especially from a Sunday roast. The main ingredients are potatoes and cabbage, but other vegetables like carrots, peas, or Brussels sprouts can be included.",
+        "factsExplanation2": "In the UK, it's a popular dish on Boxing Day (December 26), when families reuse leftover vegetables and meat from Christmas dinner. It's a thrifty and delicious way to reduce food waste.",
+        "factsExplanation3": "Its quirky name comes from the sizzling “bubble” and “squeak” noises cabbage and potato make when frying together.",
+
+        "gallery1": "img/Snacks/BubblenSqueak/gallery1.jpg",
+        "gallery2": "img/Snacks/BubblenSqueak/gallery2.webp",
+        "gallery3": "img/Snacks/BubblenSqueak/gallery3.jpg",
+        "gallery4": "img/Snacks/BubblenSqueak/gallery4.jpg",
+        "gallery5": "img/Snacks/BubblenSqueak/gallery5.jpg",
+
+        "ingredients": ["1 tsp oil, plus extra for frying","25g/1oz butter","1 small onion, thinly sliced","225-250g/8-9oz leftover vegetables, such as kale, spinach, chard, Brussels sprouts, cabbage, leeks","300g/10½oz leftover cooked potatoes","small handful chopped fresh herbs, such as thyme, rosemary or parsley (optional)","2 free-range eggs","salt and freshly ground black pepper"],
+        "recipeSteps": ["Heat the teaspoon of oil and the butter in a non-stick pan. Fry the onion until slightly softened, then add the vegetables and potatoes. Season well with salt and pepper and add the herbs, if using.","Break the potatoes and vegetables up and fry undisturbed for 2-3 minutes to allow a golden brown crust to form on the bottom of the veg, then turn them over and leave to brown on the other side-keep doing this for about 15 minutes.","Use a potato masher to press the mixture into the pan to create a big potato cake, then slide out or upturn the pan onto a serving plate. Cover and keep warm, while you fry the eggs.","In the same pan, heat a little more oil. Break in the eggs and fry to your liking. Slice the bubble and squeak into wedges and top with the fried eggs to serve."] 
+    },
+    {   
+        "id": 3,
+        "img":"img/Snacks/6.devils-on-horseback.png" ,
+        "name": "Devils on Horseback",
+        "explanation": "Devils on horseback is a traditional British appetizer made by wrapping dried fruits—usually prunes or dates—in bacon, then baking them until crispy. Some versions also include a stuffing like cheese, chutney, or almonds inside the fruit.",
+        "place":"The dish originated in England, but its exact origins are unclear. It became popular in the Victorian era as a savory-sweet snack served at parties or around Christmas time. The unusual name is thought to be a playful contrast to a similar dish called “angels on horseback,” which uses oysters instead of fruit.",
+        "placeImg1": "img/Snacks/DevilsonHorseback/placeImg1.jpg",
+        "placeImg2": "img/Snacks/DevilsonHorseback/placeImg2.avif",
+
+        "history": "Devils on Horseback is a traditional British appetizer that originated in the Victorian era and typically consists of prunes or dates stuffed with ingredients like cheese or chutney, then wrapped in bacon and baked. <br><br> The dish is believed to be a savory variation of an older recipe called Angels on Horseback, which features oysters instead of dried fruit. While the exact origin of the name remains unclear, it is thought to contrast with its “angelic” counterpart by using darker, richer, and spicier ingredients. Commonly served during festive occasions such as Christmas, Devils on Horseback reflects the British culinary tradition of combining sweet and salty flavors in one bite-sized treat.",
+        "historyImg1": "img/Snacks/DevilsonHorseback/historyImg1.jpg",
+        "historyImg2": "img/Snacks/DevilsonHorseback/historyImg2.webp",
+        "historyImg3": "img/Snacks/DevilsonHorseback/historyImg3.jpg",
+
+        "factsImg1": "img/Snacks/DevilsonHorseback/factsImg1.jpg",
+        "factsImg2": "img/Snacks/DevilsonHorseback/factsImg2.jpg",
+        "factsImg3": "img/Snacks/DevilsonHorseback/factsImg3.jpg",
+        "factsTitle1": "Sometimes Served on Toothpicks as “Meat Lollipops”",
+        "factsTitle2": "Opposite of Angels on Horseback ",
+        "factsTitle3": "Victorian Party Food",
+        "factsExplanation1": "They are the 'evil' counterpart to 'angels on horseback', which are bacon-wrapped oysters.",
+        "factsExplanation2": "At modern parties and upscale events, Devils on Horseback are often served on fancy cocktail sticks or skewers, earning them the playful nickname “meat lollipops.” This fun presentation has helped the dish remain popular at weddings, holiday buffets, and catered events, where guests enjoy grabbing a quick sweet-salty bite without using cutlery.",
+        "factsExplanation3": "Devils on horseback (bacon-wrapped prunes or dates) were a popular Victorian-era appetizer, often served at fancy dinners.",
+
+        "gallery1": "img/Snacks/DevilsonHorseback/gallery1.jpg",
+        "gallery2": "img/Snacks/DevilsonHorseback/gallery2.jpg",
+        "gallery3": "img/Snacks/DevilsonHorseback/gallery3.jpg",
+        "gallery4": "img/Snacks/DevilsonHorseback/gallery4.avif",
+        "gallery5": "img/Snacks/DevilsonHorseback/gallery5.webp",
+
+        "ingredients": ["10 prunes","10 rashers of bacon","small handful fresh parsley, to garnish"],
+        "recipeSteps": ["Preheat the oven to 200C/400F/Gas 6.","Wrap each prune with a rasher of bacon and roast them on a baking tray for eight minutes, or until they are cooked through.","To serve, place the devils on horseback onto a clean plate with the parsley arranged alongside."] 
+    },
+    {   
+        "id": 4,
+        "img":"img/Snacks/7.jellied-eels.png" ,
+        "name": "Jellied Eels",
+        "explanation": "Jellied eels is a traditional British dish made from freshwater eels that are chopped, boiled, and then left to cool in their own stock, which sets into a jelly due to the natural gelatin in the fish. The dish is typically served cold and sometimes with a splash of vinegar or white pepper.",
+        "place":"It originated in the 18th century in East London, particularly around the East End, where eels were cheap and easy to catch in the River Thames. Jellied eels became a staple for the working class and are closely associated with London's Cockney culture. Though less common today, they are still sold in traditional pie and mash shops.",
+        "placeImg1": "img/Snacks/JelliedEels/placeImg1.jpg",
+        "placeImg2": "img/Snacks/JelliedEels/placeImg2.jpg",
+
+        "history": "Jellied eels are a traditional English dish that originated in the 18th century, primarily in the East End of London. The dish consists of chopped eels boiled in a spiced stock that is allowed to cool and set, forming a jelly. Eels were abundant in the Thames River, making them an affordable source of sustenance for the local population. Jellied eels were originally a cheap and easy way to make a good dish.",
+        "historyImg1": "img/Snacks/JelliedEels/historyImg1.avif",
+        "historyImg2": "img/Snacks/JelliedEels/historyImg2.jpg",
+        "historyImg3": "img/Snacks/JelliedEels/historyImg3.jpg",
+
+        "factsImg1": "img/Snacks/JelliedEels/factsImg1.webp",
+        "factsImg2": "img/Snacks/JelliedEels/factsImg2.jpg",
+        "factsImg3": "img/Snacks/JelliedEels/factsImg3.jpg",
+        "factsTitle1": "The Jelly Comes Naturally/No Gelatin Added",
+        "factsTitle2": "East London Delicacy",
+        "factsTitle3": "A Texture You Either Love or Hate",
+        "factsExplanation1": "Jellied eels were a cheap protein source for 18th-century London dockworkers and remain a Cockney favorite.",
+        "factsExplanation2": "One of the most surprising things about jellied eels is that the jelly forms naturally from the eel's own gelatin-rich bones and skin during cooking. When the eels are boiled and then cooled, the natural collagen in their bodies sets into a jelly without needing any added gelatin or thickeners making it a naturally gelling dish",
+        "factsExplanation3": "Many people find the slippery, cold texture of jellied eels off-putting, but enthusiasts enjoy them with spicy chili vinegar as a traditional accompaniment.",
+
+        "gallery1": "img/Snacks/JelliedEels/gallery1.jpg",
+        "gallery2": "img/Snacks/JelliedEels/gallery2.avif",
+        "gallery3": "img/Snacks/JelliedEels/gallery3.jpg",
+        "gallery4": "img/Snacks/JelliedEels/gallery4.jpg",
+        "gallery5": "img/Snacks/JelliedEels/gallery5.png",
+
+        "ingredients": ["2 Eels.","1 small onion.","1 tablespoon oil.","White wine.","1 tablespoon chopped shallot.","Salt.","6 to 8 peppercorns.","1 teaspoon gelatin.","Water.","Paprika."],
+        "recipeSteps": ["Clean and cut 2 eels into 2-3 cm pieces.","Sauté chopped onion in a little oil until golden.","Add the eels, paprika, chopped shallots, salt, pepper, and pour white wine to cover.","Bring to a boil, then cover and simmer for 18 minutes until tender.","Strain the broth and dissolve gelatin in cold water, then mix into the broth.","Cool the eels, remove bones, and arrange on a plate.","Pour the gelatin mixture over the eels and chill until set.","Sprinkle paprika before serving"] 
+    }
+]

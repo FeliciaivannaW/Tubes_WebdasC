@@ -1,0 +1,68 @@
+[
+    {   
+        "id": 1,
+        "img":"img/Drinks/6.syllabub.png",
+        "name": "Syllabub",
+        "explanation": "Syllabub is a traditional British dessert known for its creamy texture and refreshing taste. It consists of whipped cream mixed with sweetened wine or cider, often combined with lemon juice or zest. This combination creates a rich yet light dessert that is perfect for warm weather occasions.",
+        "place":"The dessert originated in England, particularly in the English countryside, as early versions were made by milking a cow directly into wine. It became popular in the 16th to 18th centuries as a rich and elegant treat at feasts and banquets.",
+        "placeImg1": "img/Drinks/Syllabub/placeImg1.jpg",
+        "placeImg2": "img/Drinks/Syllabub/placeImg2.webp",
+
+        "history": "Syllabub (with various historical spellings) is a traditional English dessert drink known since at least the 16th century, as referenced in Nicholas Udall's Thersytes (1537). The term appears multiple times in historical literature, including in Samuel Pepys's diary (1663) and Thomas Hughes's Tom Brown at Oxford (1861). <br><br> In the 18th century, Hannah Glasse published a recipe for 'whipt syllabubs' in The Art of Cookery Made Plain and Easy. The ingredients included thick cream, sack (a type of sweet wine), juice and grated peel of lemons or Seville oranges, and sugar. These were whipped together until the mixture separated, with the curdled cream floating on top. As dairy products were thicker in the past, modern recipes often need adjustments to replicate the original texture.",
+        "historyImg1": "img/Drinks/Syllabub/historyImg1.jpg",
+        "historyImg2": "img/Drinks/Syllabub/historyImg2.jpg",
+        "historyImg3": "img/Drinks/Syllabub/historyImg3.jpg",
+
+        "factsImg1": "img/Drinks/Syllabub/factsImg1.webp",
+        "factsImg2": "img/Drinks/Syllabub/factsImg2.jpg",
+        "factsImg3": "img/Drinks/Syllabub/factsImg3.jpg",
+        "factsTitle1": "Traditional British dessert ",
+        "factsTitle2": "Milk Straight from the Cow",
+        "factsTitle3": "Bubbly Bubbly",
+        "factsExplanation1": "Known for its creamy texture and refreshing taste. It consists of whipped cream mixed with sweetened wine or cider, often combined with lemon juice or zest. This combination creates a rich yet light dessert that is perfect for warm weather occasions.",
+        "factsExplanation2": "Traditional syllabub was made by milking a cow directly into a bowl of alcohol (usually cider or wine).",
+        "factsExplanation3": "The term 'bub' is medieval slang for a bubbly drink. So 'syllabub' literally means 'bubbly bubbly'!",
+
+        "gallery1": "img/Drinks/Syllabub/gallery1.jpg",
+        "gallery2": "img/Drinks/Syllabub/gallery2.jpg",
+        "gallery3": "img/Drinks/Syllabub/gallery3.jpg",
+        "gallery4": "img/Drinks/Syllabub/gallery4.jpg",
+        "gallery5": "img/Drinks/Syllabub/gallery5.jpg",
+
+        "ingredients": ["½ cup cream sherry","2 tablespoons brandy","¼ cup baker's sugar","¼ cup lemon juice (juice of about one lemon)","⅛ teaspoon freshly grated nutmeg (plus a light dusting grated over the top when served)","1¼ cups heavy whipping cream chilled"],
+        "recipeSteps": ["Combine the sherry, brandy, lemon juice, sugar, and nutmeg in a large glass or ceramic bowl. Using a large whisk, stir the mixture to dissolve the sugar.","Very slowly pour the heavy whipping cream into the sherry mixture, constantly whisking all the while.","Continue whisking until the mixture thickens and holds soft peaks. (This will take about 5 minutes when whipped by hand.)","Spoon the syllabub into small glasses and top with a light dusting of freshly grated nutmeg."] 
+    },
+    {   
+        "id": 2,
+        "img":"img/Drinks/7.wassail.png",
+        "name": "Wassail",
+        "explanation": "Wassail is a traditional British hot drink made from spiced cider or ale, sometimes mixed with apple juice, cinnamon, cloves, and nutmeg. It's usually served warm during winter and Christmas celebrations to bring comfort and cheer.",
+        "place":"Wassail originated in England, especially in southern and western regions like Somerset and Gloucestershire, where apple orchards were common. The word 'wassail' comes from the Old English phrase 'waes hael', meaning 'be healthy' or 'be well'. It was part of a tradition called wassailing, where people would sing and drink to bless the apple trees for a good harvest in the new year.",
+        "placeImg1": "img/Drinks/Wassail/placeImg1.jpg",
+        "placeImg2": "img/Drinks/Wassail/placeImg2.jpg",
+
+        "history": "The word 'wassail' originates from the Old Norse greeting ves heill, meaning 'be in good health', similar to the Old English wes hál. Initially, it was simply used as a salutation with no connection to drinking. <br><br> Later, it became part of a traditional drinking exchange: 'wassail...drinkhail', likely emerging among the Anglo-Danes in England and eventually spreading to the Anglo-Saxon population. The first known usage appeared around 1140 in Geoffrey of Monmouth's version of the Rowena story. <br><br> Over time, various spellings of both 'wassail' and 'drinkhail' emerged. By 1275, a manuscript records a friendly exchange: 'Beloved friend, wassail!' and 'Drinkhail!' <br><br> By around 1300, 'wassail' had evolved to refer not only to the toast but also to the spiced ale consumed during Twelfth Night and Christmas Eve festivities. By 1598, it described the custom of drinking healths during these celebrations. Shakespeare's use of 'Keep wassel' in Hamlet (1603) marks the first recorded instance of 'wassail' meaning general revelry or partying.",
+        "historyImg1": "img/Drinks/Wassail/historyImg1.jpg",
+        "historyImg2": "img/Drinks/Wassail/historyImg2.jpg",
+        "historyImg3": "img/Drinks/Wassail/historyImg3.webp",
+
+        "factsImg1": "img/Drinks/Wassail/factsImg1.gif",
+        "factsImg2": "img/Drinks/Wassail/factsImg2.webp",
+        "factsImg3": "img/Drinks/Wassail/factsImg3.jpg",
+        "factsTitle1": "Formal Greeting",
+        "factsTitle2": "A Toast to Tradition",
+        "factsTitle3": "Wassail Wishes of Health",
+        "factsExplanation1": "Long before it ever referred to a drink, only later did it become associated with festive spiced ale and holiday revelry.",
+        "factsExplanation2": "Wassail is a traditional hot drink that is commonly associated with festive celebrations, particularly during the winter season. It has been around for centuries and has evolved into various recipes and flavors. The taste of wassail can vary depending on the specific ingredients used, but it generally offers a delightful combination of sweet and tangy flavors with hints of spices.",
+        "factsExplanation3": "The name means “be healthy” and wassailing rituals date back to at least the 5th century, with Beowulf referencing it on the Twelfth Nigh.",
+
+        "gallery1": "img/Drinks/Wassail/gallery1.jpg",
+        "gallery2": "img/Drinks/Wassail/gallery2.jpg",
+        "gallery3": "img/Drinks/Wassail/gallery3.jpg",
+        "gallery4": "img/Drinks/Wassail/gallery4.avif",
+        "gallery5": "img/Drinks/Wassail/gallery5.jpg",
+
+        "ingredients": ["225g eating apples","110g raisins","225g cider","170g butter","100g (4 tbsp) honey","4 medium eggs (approx 190g egg white & yolk)","200g self-raising flour","2 tsp baking powder"],
+        "recipeSteps": ["Grease and line an 18cm square baking tin, or similar.","Preheat the oven to 180C.","Put the raisins in a saucepan, cover with the cider, bring to the boil then remove from the heat.","Add the apple pieces to the cider and raisins, and allow to cool while you continue.","Cream the butter and honey then gradually add the beaten egg. If it starts to curdle, add a little of the flour.","Sieve together the flour and baking powder.","Add half the flour to the batter, and combine.","Add half the cider mixture to the batter, and combine.","Add the other half of the flour and fold in.","Add the rest of the cider mix and carefully combine, until the mixture is uniformly mixed, but not over-mixed.","Pour the mix into the tin.","Bake for about an hour, or until risen and firm."] 
+    }
+]

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Dishes</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo Hitam.png">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <nav>
+            <img src="img/logo Hitam.png" alt="" class="logo">
+            <div class="navbar">
+                <a href="/homepage/home.html" target="_blank" class="menu hideOnMobile">HOME</a>
+                <div class="dropdown hideOnMobile">
+                    <a href="/Dishes&Beverage/maindishes.html" target="_blank" class="menu">DISHES & BEVERAGES</a>
+                    <div class="dropdown-content">
+                        <div class="first">
+                            <a href="maindishes.html" target="_blank">Main Dishes</a>
+                        </div>
+                        <div class="second">
+                            <a href="snacks.html" target="_blank">Snacks & Sides</a>
+                        </div>
+                        <div class="third">
+                            <a href="desserts.html" target="_blank">Desserts & Puddings</a>
+                        </div>
+                        <div class="fourth">
+                            <a href="drinks.html" target="_blank">Traditional Drinks</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="/Quiz_Page/QuizPage.html" target="_blank" class="menu hideOnMobile">QUIZ</a>
+                <div class="dropdown hideOnMobile">
+                    <a href="/Image_Resources_Page/ImageResources.html" target="_blank" class="menu">REFERENCES & RESOURCES</a>
+                    <div class="dropdown-content" id="dropdown2">
+                        <div class="first">
+                            <a href="/Image_Resources_Page/ImageResources.html" target="_blank">Image</a>
+                        </div>
+                        <div class="second">
+                            <a href="/Image_Resources_Page/ImageResources.html" target="_blank">Content</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subsBtn">
+                <button class="hideOnMobile"><a href="#footerBottom" target="_blank">SUBSCRIBE NOW</a></button>
+                <button id="hamburger-btn"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+
+        <!-- sidebar -->
+        <nav class="sidebar">
+            <div class="closeDiv">
+                <button><i class="fa-solid fa-xmark" id="closemark"></i></button>
+            </div>
+            <div class="navbar" id="nav-side">
+                <a href="/homepage/home.html" target="_blank" class="menu">HOME</a>
+                <div class="expand-menu">
+                    <div class="title">
+                        <a href="/Dishes&Beverage/maindishes.html" target="_blank" class="menu">DISHES & BEVERAGES</a>
+                        <button><i class="fa-solid fa-angle-down"></i></button>
+                    </div>
+                    
+                    <div class="expand-content">
+                        <div class="expand1" id="expand-menu-2"><a href="maindishes.html" target="_blank">Main Dishes</a></div>
+                        <div class="expand1" id="expand-menu-3"><a href="snacks.html" target="_blank">Snacks & Sides</a></div>
+                        <div class="expand1" id="expand-menu-4"><a href="desserts.html" target="_blank">Desserts & Puddings</a></div>
+                        <div class="expand1" id="expand-menu-5"><a href="drinks.html" target="_blank">Traditional Drinks</a></div>
+                    </div>
+                </div>
+                <a href="/Quiz_Page/QuizPage.html" target="_blank" class="menu">QUIZ</a>
+                <div class="expand-menu">
+                    <div class="title">
+                        <a href="/Image_Resources_Page/ImageResources.html" target="_blank" class="menu" id="menu4">REFERENCES & RESOURCES</a>
+                        <button id="button2"><i class="fa-solid fa-angle-down"></i></button>
+                    </div>
+                    
+                    <div class="expand-content" id="expand2">
+                        <div class="expand1" id="expand-menu-2"><a href="/Image_Resources_Page/ImageResources.html" target="_blank">Image</a></div>
+                        <div class="expand1" id="expand-menu-3"><a href="/Content_Resource_Page/ContentResource.html" target="_blank">Content</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="subsBtn">
+                <button>SUBSCRIBE NOW</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <div class="list">
+            <div class="item">
+                <div class="intro">
+                    <div class="title">MAIN DISHES</div>
+                    <div class="topic">Stargazy Pie</div>
+                    <div class="des">Stargazy pie originates from Mousehole, a small fishing village in Cornwall, England. It is linked to a local legend about a fisherman named Tom Bawcock, who went out to sea during a storm to save the village from starvation. To celebrate his bravery, a pie was made with fish heads poking through the crust to show that it was filled with fish and it became known as Stargazy Pie.</div>
+                    <div>
+                        <button class="readmore" id="1">READ MORE</button>
+                    </div>
+                </div>
+                <img src="img/Main/2.stargazy-pie.png" alt="" id="star">
+            </div>
+            <div class="item">
+                <div class="intro">
+                    <div class="title">MAIN DISHES</div>
+                    <div class="topic">Toad in the Hole</div>
+                    <div class="des">Toad in the Hole is a traditional British dish made by baking sausages in a batter similar to Yorkshire pudding. The sausages are placed in a hot baking dish, and the batter is poured over them before baking. It's usually served with onion gravy and vegetables.</div>
+                    <div>
+                        <button class="readmore" id="2">READ MORE</button>
+                    </div>
+                </div>
+                <img src="img/Main/3.toad-in-the-hole.png" alt="">
+            </div>
+            <div class="item">
+                <div class="intro">
+                    <div class="title">MAIN DISHES</div>
+                    <div class="topic">Yorkshire Pudding</div>
+                    <div class="des">Yorkshire pudding is a traditional British dish made from a batter of eggs, flour, and milk or water. It's baked in the oven until it puffs up and turns golden brown, with a crispy outside and soft, airy inside. Yorkshire pudding is most commonly served as part of a Sunday roast, especially with roast beef and gravy. </div>
+                    <div>
+                        <button class="readmore" id="3">READ MORE</button>
+                    </div>
+                </div>
+                <img src="img/Main/4.yorkshire-pudding.png" alt="">
+            </div>
+            <div class="item">
+                <div class="intro">
+                    <div class="title">MAIN DISHES</div>
+                    <div class="topic">Fish and Chips</div>
+                    <div class="des">Fish and chips is one of the most iconic traditional British dishes. It consists of battered and deep-fried white fish (usually cod or haddock) served with thick-cut fried potatoes, known as chips. It's often enjoyed with sides like mushy peas, tartar sauce, or a splash of vinegar.</div>
+                    <div>
+                        <button class="readmore" id="4">READ MORE</button>
+                    </div>
+                </div>
+                <img src="img/Main/8.fish-n-chips1.png" alt="">
+            </div>
+            <div class="item">
+                <div class="intro">
+                    <div class="title">MAIN DISHES</div>
+                    <div class="topic">Cornish Pasty</div>
+                    <div class="des">Cornish pasty is a traditional baked pastry from Cornwall, a region in the southwest of England. It's shaped like a half-moon and filled with beef, potatoes, onions, and swede (a type of turnip), all seasoned and wrapped in a golden, flaky crust. </div>
+                    <div>
+                        <button class="readmore" id="5">READ MORE</button>
+                    </div>
+                </div>
+                <img src="img/Main/9.cornish-pasty.png" alt="" id="cornish">
+            </div>
+            <div class="item">
+                <div class="intro">
+                    <div class="title">MAIN DISHES</div>
+                    <div class="topic">Beef Wellington</div>
+                    <div class="des">Beef Wellington is a classic British dish made of a beef tenderloin (usually filet mignon) coated with mushroom duxelles and sometimes pâté, then wrapped in puff pastry and baked until golden. The result is a crispy outside with tender, juicy beef inside.</div>
+                    <div>
+                        <button class="readmore" id="6">READ MORE</button>
+                    </div>
+                </div>
+                <img src="img/Main/10.beef-wellington.png" alt="">
+            </div>
+            <div class="item">
+                <div class="intro">
+                    <div class="title">MAIN DISHES</div>
+                    <div class="topic">Steak and KidneyPie</div>
+                    <div class="des">Steak and kidney pie is a traditional British savory pie made with diced beef, kidney (usually lamb or pork), onions, and rich brown gravy, all encased in a flaky or shortcrust pastry. </div>
+                    <div>
+                        <button class="readmore" id="7">READ MORE</button>
+                    </div>
+                </div>
+                <img src="img/Main/11.steak-n-kidneypie.png" alt="">
+            </div>
+            <div class="item">
+                <div class="intro">
+                    <div class="title">MAIN DISHES</div>
+                    <div class="topic">Lancashire Hotpot</div>
+                    <div class="des">Lancashire hotpot is a classic British stew made with tender pieces of lamb or mutton, sliced onions, and sometimes root vegetables like carrots. The ingredients are slow-cooked together and topped with thinly sliced potatoes arranged in layers, which turn golden and crispy as they bake. The result is a warm, hearty dish that's rich in flavor and perfect for colder days.</div>
+                    <div>
+                        <button class="readmore" id="8">READ MORE</button>
+                    </div>
+                </div>
+                <img src="img/Main/12.lancashire-hotpot.png" alt="">
+            </div>
+        </div>
+        <!-- buttons arrow -->
+        <div class="buttonsArrow">
+            <button id="prev-one"><i class="fa-solid fa-arrow-left"></i></button>
+            <button id="next-one"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <!-- main page -->
+    <div class="main">
+        <div class="content">
+            <div class="topbtn">
+                <button class="goBack">GO BACK</button>
+            </div>
+
+            <div class="head">
+                <div class="mainImg">
+                    <img src="img/Main/3.toad-in-the-hole.png" alt="">
+                </div>
+                <div class="desc">
+                    <div class="titleMain"></div>
+                    <div class="explain"></div>
+                </div>
+            </div>
+
+            <div class="secondSection">
+                <div class="secondContainer">
+                    <div class="placeContent">
+                        <div class="placeTitle"></div>
+                        <div class="placeExplain"></div>
+                    </div>
+                    <div class="imgPlace">
+                    </div>
+                </div>
+            </div>
+
+            <div class="thirdSection">
+                <div class="upSection">
+                    <div class="historyContent">
+                        <div class="historyTitle"></div>
+                        <div class="historyDesc">
+                        </div>
+                    </div>
+                    <div class="imgThird" id="imgHistory1">
+                    </div>
+                    <div class="imgThird" id="imgHistory2">
+                    </div>
+                </div>
+                <div class="bottomSection" id="imgHistory3">
+                </div>
+            </div>
+
+            <div class="factsCarousel">
+                <div class="factsTitle"></div>
+                <div class="sliderContainer">
+                    <div class="slider">
+                        <div class="item">
+                            <div class="fact1">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title" id="card-one"></h3>
+                                <p class="card-text" id="card-one-text"></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="fact2">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title" id="card-two"></h3>
+                                <p class="card-text" id="card-two-text"></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="fact3">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title" id="card-three"></h3>
+                                <p class="card-text" id="card-three-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttonsArrow2">
+                    <button id="prev2"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button id="next2"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div class="recipeSection">
+                <div class="recipeContent">
+                    <div class="recipeTitle">
+                    </div>
+                    <img src="img/6.png" alt="" class="img-recipe">
+                    <div class="ingredients">
+                        <p>Ingredients</p>
+                        <ul class="ingridientsList">
+                        </ul>
+                    </div>
+                    <div class="howTo">
+                        <p>Steps</p>
+                        <ul class="steps">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <section class="sandwich-gallery">
+                <div class="gallery-grid">
+                    <div class="gallery-item gallery-1"></div>
+                    <div class="gallery-item gallery-2"></div>
+                    <div class="gallery-item gallery-3"></div>
+                    <div class="gallery-item gallery-4"></div>
+                    <div class="gallery-item gallery-5"></div>
+                </div>
+            </section>
+
+            <div class="quotes">
+                “First we eat, then we do everything else.”  -M.F.K. Fisher
+            </div>
+
+            <div class="subsBanner">
+                <div class="subsContent">
+                    <p class="subsTitle">Subscribe to Our <span class="pinkColor">Newsletter.</span></p>
+                    <p class="subsDesc">for new stories each week!</p>
+                    <div>
+                        <button class="subsButton"><a href="#footerBottom">SUBSCRIBE</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer" id="footerBottom">
+                <div class="footer-content">
+                    <div class="logo"><img src="img/logo Putih.png"></div>
+                    <div class="footer-left">
+                        <div class="about">
+                        <h3>About</h3>
+                        <p>
+                            The Taste of England is a storytelling-based site that explores the rich culinary heritage of England — one dish at a time
+                        </p>
+                        </div>
+                        <div class="contact">
+                        <h3>Contact Us</h3>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/ukmaranathaofficial/?locale=id_ID"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/universitaskristenmaranatha/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@joinmaranatha"><i class="fab fa-tiktok"></i></a>
+                            <a href="https://wa.me/+6281112006543 "><i class="fab fa-whatsapp"></i></a>
+                            <div class="copyright">
+                                <p>© 2025 Plate Tales. All rights reserved.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <div class="form-wrapper">
+                            <h3>Subscribe Now!</h3>
+                            <form action="#" method="post">
+                            <input type="text" name="first_name" class="but" placeholder="First Name" required><br>
+                            <input type="text" name="last_name"  class="but" placeholder="Last Name" required><br>
+                            <input type="email" name="email"  class="but" placeholder="Email Address" required><br>
+                            <button type="submit" class="submit">SUBMIT</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <script src="maindishes.js"></script>
+    
+</body>
+</html>

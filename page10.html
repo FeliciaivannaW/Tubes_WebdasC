@@ -3,33 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plate Tales</title>
+    <title>Home</title>
     <link rel="stylesheet" href="page10.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="logo Hitam.png">
 </head>
 <body>
-    <header class="navbar">
-        <div class="logo">
-        <img src="logo Putih.png" alt="Plate Tales Logo">
-        </div>
+    <!-- header -->
+    <header>
         <nav>
-        <a href="#home">HOME</a>
-        <a href="#dishes">DISHES & BEVERAGES</a>
-        <a href="#milestones">QUIZ</a>
-        <a href="#faq">REFERANCES & RESOURCES</a>
+            <img src="logo Putih.png" alt="" class="logo">
+            <div class="navbar">
+                <a href="/homepage/home.html" target="_blank" class="menu hideOnMobile">HOME</a>
+                <div class="dropdown hideOnMobile">
+                    <a href="/Dishes&Beverage/maindishes.html" target="_blank" class="menu">DISHES & BEVERAGES</a>
+                    <div class="dropdown-content">
+                        <div class="first">
+                            <a href="/Dishes&Beverage/maindishes.html" target="_blank">Main Dishes</a>
+                        </div>
+                        <div class="second">
+                            <a href="/Dishes&Beverage/snacks.html" target="_blank">Snacks & Sides</a>
+                        </div>
+                        <div class="third">
+                            <a href="/Dishes&Beverage/desserts.html" target="_blank">Desserts & Puddings</a>
+                        </div>
+                        <div class="fourth">
+                            <a href="/Dishes&Beverage/drinks.html" target="_blank">Traditional Drinks</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="/Quiz_Page/QuizPage.html" target="_blank" class="menu hideOnMobile">QUIZ</a>
+                <div class="dropdown hideOnMobile">
+                    <a href="/Image_Resources_Page/ImageResources.html" target="_blank" class="menu">REFERENCES & RESOURCES</a>
+                    <div class="dropdown-content" id="dropdown2">
+                        <div class="first">
+                            <a href="/Image_Resources_Page/ImageResources.html" target="_blank">Image</a>
+                        </div>
+                        <div class="second">
+                            <a href="/Content_Resource_Page/ContentResource.html" target="_blank">Content</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subsBtn">
+                <button class="hideOnMobile" id="subsHeader">SUBSCRIBE NOW</button>
+                <button id="hamburger-btn"><i class="fa-solid fa-bars"></i></button>
+            </div>
         </nav>
-        <button id="subscribeTop" class="btn-subscribe">SUBSCRIBE NOW</button>
+
+        <!-- sidebar -->
+        <nav class="sidebar">
+            <div class="closeDiv">
+                <button><i class="fa-solid fa-xmark" id="closemark"></i></button>
+            </div>
+            <div class="navbar" id="nav-side">
+                <a href="/homepage/home.html" target="_blank" class="menu">HOME</a>
+                <div class="expand-menu">
+                    <div class="title">
+                        <a href="/Dishes&Beverage/maindishes.html" target="_blank" class="menu">DISHES & BEVERAGES</a>
+                        <button><i class="fa-solid fa-angle-down"></i></button>
+                    </div>
+                    
+                    <div class="expand-content">
+                        <div class="expand1" id="expand-menu-2"><a href="/Dishes&Beverage/maindishes.html" target="_blank">Main Dishes</a></div>
+                        <div class="expand1" id="expand-menu-3"><a href="/Dishes&Beverage/snacks.html" target="_blank">Snacks & Sides</a></div>
+                        <div class="expand1" id="expand-menu-4"><a href="/Dishes&Beverage/desserts.html" target="_blank">Desserts & Puddings</a></div>
+                        <div class="expand1" id="expand-menu-5"><a href="/Dishes&Beverage/drinks.html" target="_blank">Traditional Drinks</a></div>
+                    </div>
+                </div>
+                <a href="/Quiz_Page/QuizPage.html" target="_blank" class="menu">QUIZ</a>
+                <div class="expand-menu">
+                    <div class="title">
+                        <a href="/Image_Resources_Page/ImageResources.html" target="_blank" class="menu" id="menu4">REFERENCES & RESOURCES</a>
+                        <button id="button2"><i class="fa-solid fa-angle-down"></i></button>
+                    </div>
+                    
+                    <div class="expand-content" id="expand2">
+                        <div class="expand1" id="expand-menu-2"><a href="/Image_Resources_Page/ImageResources.html" target="_blank">Image</a></div>
+                        <div class="expand1" id="expand-menu-3"><a href="/Content_Resource_Page/ContentResource.html" target="_blank">Content</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="subsBtn">
+                <button id="subscribeTop">SUBSCRIBE NOW</button>
+            </div>
+        </nav>
     </header>
 
-    <main class="isi" id="home">
-        <div class="isi-content">
-        <h1>The Taste of England:<br>Untold Stories</h1>
-        <p>Every dish holds a story, and every flavor reveals a piece of England’s soul.</p>
-        <button id="startExploring" class="btn-primary">START EXPLORING</button>
+    <main class="main" id="home">
+        <div class="main-bg"></div>
+        
+        <div class="main-content">
+            <h1>The Taste of England:<br>Untold Stories</h1>
+            <p>Every dish holds a story, and every flavor reveals a piece of England’s soul.</p>
+            <button id="startExploring" class="btn-primary">START EXPLORING</button>
         </div>
     </main>
 
@@ -153,7 +229,54 @@
         <p>“People who love to eat are always the best people." - Julia Child</p>
     </main>
 
-    <main class="newsletter">
+    <div class="subsBanner">
+        <div class="subsContent">
+            <p class="subsTitle">Subscribe to Our <span class="pinkColor">Newsletter.</span></p>
+            <p class="subsDesc">for new stories each week!</p>
+            <div>
+                <button class="subsButton" id="subscribeBottom">SUBSCRIBE</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" id="footer">
+        <div class="footer-content">
+            <div class="logo"><img src="logo Putih.png"></div>
+            <div class="footer-left">
+                <div class="about">
+                    <h3>About</h3>
+                    <p>
+                        The Taste of England is a storytelling-based site that explores the rich culinary heritage of England — one dish at a time
+                    </p>
+                </div>
+                <div class="contact">
+                    <h3>Contact Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/ukmaranathaofficial/?locale=id_ID" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/universitaskristenmaranatha/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@joinmaranatha" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/+6281112006543" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <div class="copyright">
+                            <p>&copy; 2025 Plate Tales. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right" id="newsletter">
+                <div class="form-wrapper">
+                    <h3>Subscribe Now!</h3>
+                    <form action="#" method="post">
+                    <input type="text" name="first_name" class="but" placeholder="First Name" required><br>
+                    <input type="text" name="last_name"  class="but" placeholder="Last Name" required><br>
+                    <input type="email" name="email"  class="but" placeholder="Email Address" required><br>
+                    <button type="submit" class="submit">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <main class="newsletter">
         <div class="news-left">
         <h2>Subscribe to Our <span>Newsletter.</span></h2>
         <p>for new stories each week!</p>
@@ -188,7 +311,7 @@
             <button type="submit">Submit</button>
         </form>
         </div>
-    </footer>
+    </footer> -->
 
     <script src="page10.js"></script>
 </body>

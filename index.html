@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Plate Tales</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="logo Hitam.png">
+
+    <style>
+        body{
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+        }
+
+        .logo{
+            width: 60px;
+        }
+
+        .subsBtn button{
+            background-color: #F65E96;
+            color: white;
+            font-family: Poppins;
+            font-weight: 500;
+            border: none;
+            padding: 7px 15px;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+
+        .menu{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 1140px;
+            max-width: 100%;
+            margin-top: 30px;
+        }
+
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            width: 500px;
+            flex-shrink: 0;
+            align-items: center;
+        }
+
+        header{
+            width: 1140px;
+            max-width: 80%;
+            margin: auto;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 100;
+        }
+
+        header nav .navbar .dropdown{
+            position: relative;
+        }
+
+        .dropdown-content{
+            position: absolute;
+            background-color: rgb(238, 238, 238);
+            border: none;
+            padding-top: 8px;
+            padding-left: 8px;
+            box-shadow: 4px 15px 15px 5px rgba(0, 0, 0, 0.7);
+            display: none;
+            width: 140px;
+        }
+
+        #dropdown2{
+            width: 180px;
+            z-index: 999;
+        }
+
+        #dropdown-side{
+            z-index: 999;
+        }
+
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+
+        .first,.second,.third,.fourth{
+            margin-bottom: 10px;
+        }
+
+        .dropdown-content a{
+            text-decoration: none;
+            color: rgb(80, 80, 80);
+            font-size: 1.2em;
+            font-weight: 400;
+            transition: 0.3s;
+        }
+
+        .dropdown-content a:hover{
+            color: rgb(0, 0, 0);
+        }
+
+        .sidebar{
+            position: fixed;
+            background-color: rgb(238, 238, 238);
+            top: 0;
+            right: 0;
+            margin: 0;
+            height: 100vh;
+            width: 250px;
+            z-index: 999;
+            flex-direction: column;
+            box-shadow: -10px 0 10px rgba(0, 0, 0, 0.5);
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 20px;
+            gap: 30px;
+            display: none;
+        }
+
+        .sidebar a{
+            color: rgb(80, 80, 80);
+        }
+
+        #nav-side{
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: max-content;
+            gap: 17px;
+        }
+
+        .closeDiv button{
+            background-color: transparent;
+            border: none;
+            margin: none;
+            cursor: pointer;
+        }
+
+        #closemark{
+            font-size: 25px;
+            color: rgb(80, 80, 80);
+        }
+
+        .expand1 a{
+            color: rgb(80, 80, 80);
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: 0.3s;
+        }
+
+        .expand1 a:hover{
+            color: rgb(0, 0, 0);
+        }
+
+        #expand-menu-2{
+            margin-top: 10px;
+        }
+
+        .expand1{
+            margin-bottom: 10px;
+        }
+
+        .title .menu{
+            margin-right: 70px;
+        }
+
+        #menu4{
+            margin-right: 25px;
+        }
+
+        .title button{
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+
+        .expand-content{
+            display: none;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: showDownMenu 0.5s 0.1s linear 1 forwards;
+        }
+
+        @keyframes showDownMenu{
+            to{
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        #hamburger-btn{
+            background-color: transparent;
+            border: none;
+            font-size: 2.2em;
+            cursor: pointer;
+            display: none;
+        }
+
+        .subsBtn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media(max-width: 400px){
+            #hamburger-btn{
+                font-size: 18px;
+            }
+
+            .logo{
+                width: 40px;
+            }
+        }
+
+        @media(max-width: 1100px){
+            .hideOnMobile{
+                display: none;
+            }
+
+            #hamburger-btn{
+                display: block;
+            }
+
+            nav{
+                width: 100%;
+            }
+
+            .navbar{
+                width: 100%;
+                flex-shrink: 1;
+            }
+        }
+
+        .main {
+            height: 90vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .main-bg {
+            position: absolute;
+            inset: 0;
+            background: url('background.jpg') center/cover no-repeat;
+        }
+
+        .main-bg::before{
+            content: "";
+            position: absolute;
+            inset: 0; 
+            background-color: rgba(0, 0, 0, 0.6); 
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .main-content {
+            max-width: 800px;
+            margin: auto;
+            padding: 40px 20px;
+            position: relative;
+            text-align: center;
+        }
+
+        .main-content h1 {
+            font-family: 'Abhaya Libre', serif;
+            font-size: 5em;
+            line-height: 1.3;
+            margin-bottom: 20px;
+        }
+
+        .main-content p {
+            font-size: 16px;
+            line-height: 28px;
+            margin-bottom: 30px;
+        }
+
+        .cta-btn {
+            background-color: #ff2d75;
+            color: white;
+            padding: 14px 32px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 16px;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.5s ease;
+        }
+
+        .cta-btn:hover{
+            transform: translateY(-10px);
+        }
+
+        .subsBtn a{
+            text-decoration: none;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .main-content h1 {
+            font-size: 32px;
+            }
+
+            .cta-btn {
+            font-size: 14px;
+            padding: 12px 24px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <nav>
+            <img src="logo Putih.png" alt="" class="logo">
+            <div class="navbar">
+                <a href="/homepage/home.html" target="_blank" class="menu hideOnMobile">HOME</a>
+                <div class="dropdown hideOnMobile">
+                    <a href="/Dishes&Beverage/maindishes.html" target="_blank" class="menu">DISHES & BEVERAGES</a>
+                    <div class="dropdown-content">
+                        <div class="first">
+                            <a href="/Dishes&Beverage/maindishes.html" target="_blank">Main Dishes</a>
+                        </div>
+                        <div class="second">
+                            <a href="/Dishes&Beverage/snacks.html" target="_blank">Snacks & Sides</a>
+                        </div>
+                        <div class="third">
+                            <a href="/Dishes&Beverage/desserts.html" target="_blank">Desserts & Puddings</a>
+                        </div>
+                        <div class="fourth">
+                            <a href="/Dishes&Beverage/drinks.html" target="_blank">Traditional Drinks</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="/Quiz_Page/QuizPage.html" target="_blank" class="menu hideOnMobile">QUIZ</a>
+                <div class="dropdown hideOnMobile">
+                    <a href="/Image_Resources_Page/ImageResources.html" target="_blank" class="menu">REFERENCES & RESOURCES</a>
+                    <div class="dropdown-content" id="dropdown2">
+                        <div class="first">
+                            <a href="/Image_Resources_Page/ImageResources.html" target="_blank">Image</a>
+                        </div>
+                        <div class="second">
+                            <a href="/Content_Resource_Page/ContentResource.html" target="_blank">Content</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subsBtn">
+                <button class="hideOnMobile"><a href="#footerBottom" target="_blank">SUBSCRIBE NOW</a></button>
+                <button id="hamburger-btn"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+
+        <!-- sidebar -->
+        <nav class="sidebar">
+            <div class="closeDiv">
+                <button><i class="fa-solid fa-xmark" id="closemark"></i></button>
+            </div>
+            <div class="navbar" id="nav-side">
+                <a href="/homepage/home.html" target="_blank" class="menu">HOME</a>
+                <div class="expand-menu">
+                    <div class="title">
+                        <a href="/Dishes&Beverage/maindishes.html" target="_blank" class="menu">DISHES & BEVERAGES</a>
+                        <button><i class="fa-solid fa-angle-down"></i></button>
+                    </div>
+                    
+                    <div class="expand-content">
+                        <div class="expand1" id="expand-menu-2"><a href="/Dishes&Beverage/maindishes.html" target="_blank">Main Dishes</a></div>
+                        <div class="expand1" id="expand-menu-3"><a href="/Dishes&Beverage/snacks.html" target="_blank">Snacks & Sides</a></div>
+                        <div class="expand1" id="expand-menu-4"><a href="/Dishes&Beverage/desserts.html" target="_blank" >Desserts & Puddings</a></div>
+                        <div class="expand1" id="expand-menu-5"><a href="/Dishes&Beverage/drinks.html" target="_blank">Traditional Drinks</a></div>
+                    </div>
+                </div>
+                <a href="/Quiz_Page/QuizPage.html" target="_blank" class="menu">QUIZ</a>
+                <div class="expand-menu">
+                    <div class="title">
+                        <a href="/Image_Resources_Page/ImageResources.html" target="_blank" class="menu" id="menu4">REFERENCES & RESOURCES</a>
+                        <button id="button2"><i class="fa-solid fa-angle-down"></i></button>
+                    </div>
+                    
+                    <div class="expand-content" id="expand2">
+                        <div class="expand1" id="expand-menu-2"><a href="/Image_Resources_Page/ImageResources.html" target="_blank">Image</a></div>
+                        <div class="expand1" id="expand-menu-3"><a href="/Content_Resource_Page/ContentResource.html" target="_blank">Content</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="subsBtn">
+                <button>SUBSCRIBE NOW</button>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main-bg"></div>
+        
+        <div class="main-content">
+        <h1>The Taste of England:<br>Untold Stories</h1>
+        <p>Every dish holds a story, and every flavor reveals a piece of England’s soul.</p>
+        <a href="page10.html" class="cta-btn">START EXPLORING</a>
+        </div>
+    </main>
+
+    <script>
+        let downBtn = document.querySelector(".title button");
+        let expandSection = document.querySelector(".expand-content");
+        let downBtn2 = document.querySelector("#button2");
+        let expandSection2 = document.querySelector("#expand2");
+        let menuBar = document.querySelector("#hamburger-btn");
+        let closeBtn = document.querySelector("#closemark");
+        let sideBar = document.querySelector(".sidebar");
+        let expanded = false;
+        let expanded2 = false;
+
+        downBtn.addEventListener("click",()=>{
+            showDownMenu();
+        })
+
+        downBtn2.addEventListener("click",()=>{
+            showDownMenu2();
+        })
+
+        menuBar.addEventListener("click",()=>{
+            showSideBar();
+        })
+
+        closeBtn.addEventListener("click",()=>{
+            hideSideBar();
+        })
+
+        function showDownMenu(){
+            if(!expanded){
+                expandSection.classList.add("show");
+                expandSection.style.display = "block";
+                downBtn.innerHTML = '<i class="fa-solid fa-angle-up"></i>';
+            } else{
+                expandSection.style.display = "none";
+                downBtn.innerHTML = '<i class="fa-solid fa-angle-down"></i>';
+            }
+            expanded = !expanded;
+        }
+
+        function showDownMenu2(){
+            if(!expanded2){
+                expandSection2.classList.add("show");
+                expandSection2.style.display = "block";
+                downBtn2.innerHTML = '<i class="fa-solid fa-angle-up"></i>';
+            } else{
+                expandSection2.style.display = "none";
+                downBtn2.innerHTML = '<i class="fa-solid fa-angle-down"></i>';
+            }
+            expanded2 = !expanded2;
+        }
+
+        function showSideBar(){
+            sideBar.style.display = "flex";
+        }
+
+        function hideSideBar(){
+            sideBar.style.display = "none";
+        }
+    </script>
+</body>
+</html>

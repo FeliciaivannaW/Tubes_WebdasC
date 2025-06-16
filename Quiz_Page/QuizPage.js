@@ -202,7 +202,6 @@ fetch("./Questions.json").then(response => response.json()).then(data => {
 
         quizContainer.style.opacity = "1"
         quizContainer.style.display = "flex";
-        // quizContainer.classList.add("activeQuiz")
         
     }
     

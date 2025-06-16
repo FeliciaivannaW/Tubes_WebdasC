@@ -9,6 +9,7 @@ body::-webkit-scrollbar{
     display: none;
 }
 
+/* referensi youtube */
 :root{
     --item1-transform: translate(-100%,-10%) scale(1.5);
     --item1-filter: blur(30px);
@@ -367,7 +368,7 @@ header nav .navbar .dropdown{
     display: flex;
     flex-direction: column;
 }
-
+/* referensi youtube */
 .carousel .item:nth-child(2) .intro{
     opacity: 1;
     pointer-events: auto;
